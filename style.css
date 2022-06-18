@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+
+
+
+
+
+.liga {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50%;
+    align-items: center;
+    margin-top: 4%;
+    z-index: 2233456;
+}
+
+
+
+li {
+    list-style: none;
+    margin-left: 10%;
+    display: flex;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 80%;
+    margin-right: 4%;
+}
+
+
+
+.ul_collection {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 23456;
+}
+
+
+
+
+.icon {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10%;
+    margin-top: 4%;
+    z-index: 1234567890;
+
+}
+
+
+
+
+.fa-magnifying-glass,
+.fa-facebook-f,
+.fa-grid {
+    font-size: 150%;
+    z-index: 1234567;
+}
+
+
+
+
+.content {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.ver {
+    width: 50%;
+    height: 60%;
+    color: white;
+    margin-top: 6%;
+    margin-left: 3%;
+}
+
+
+
+
+
+.imagelom {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin-top: 31%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+.text {
+    width: 20%;
+    height: 50%;
+    margin-top: 6%;
+    margin-right: 10%;
+}
+
+
+
+
+.h1ge {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.videorolik {
+    width: 100%;
+    height: 120%;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.ground {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+.rasm {
+    width: 50%;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0%, 50% 99%, 0% 100%);
+    background-image: url(./SIAN_rds-overview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+.ground_ichidagi_text {
+    width: 20%;
+    height: 60vh;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+
+
+
+
+.bugati {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ferrari {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center center;
+    margin-top: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+.TEXT_buton {
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: center;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+.rasm50 {
+    width: 60%;
+    height: 60vh;
+    background-image: url(./ar_sian_rds.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: polygon(83% 20%, 100% 20%, 100% 100%, 30% 100%);
+    margin-top: 5%;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+.button {
+    width: 13%;
+    height: 12vh;
+    clip-path: polygon(1% 29%, 53% 0, 100% 29%, 100% 80%, 50% 100%, 1% 77%);
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.buttoon {
+    width: 13%;
+    height: 12vh;
+    clip-path: polygon(1% 29%, 53% 0, 100% 29%, 100% 80%, 50% 100%, 1% 77%);
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+.buttoon:hover {
+    background-color: black;
+    color: white;
+    bottom: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rasm60 {
+    width: 30%;
+    height: 100%;
+    background-image: url(./ar_sian_rds.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: polygon(1% 0, 100% 0%, 60% 100%, 0% 100%);
+}
+
+
+
+
+
+
+
+
+.text_buton1 {
+    width: 40%;
+    height: 150%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+.react {
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.OL {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.SPUN {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+.node {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+.footer_ichida {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+
+
+.ul {
+    width: 70%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ul-iconske {
+    width: 10%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 120%;
+    left: 80%;
+}
